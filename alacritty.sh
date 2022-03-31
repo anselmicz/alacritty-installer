@@ -65,7 +65,8 @@ cp extra/completions/alacritty.bash ~/.bash_completion_files/alacritty
 
 # the folder was originally called '.bash_completion', but this causes problems with default configs in /etc, which source file '.bash_completion' if it exists
 grep -qxF "source ~/.bash_completion_files/alacritty" ~/.bashrc || \
-	(echo "" >> ~/.bashrc; echo "# Alacritty bash completion" >> ~/.bashrc; echo "source ~/.bash_completion_files/alacritty" >> ~/.bashrc)
+	{ echo ""; echo "# Alacritty bash completion"; echo "source ~/.bash_completion_files/alacritty"; } >> ~/.bashrc
+#	(echo "" >> ~/.bashrc; echo "# Alacritty bash completion" >> ~/.bashrc; echo "source ~/.bash_completion_files/alacritty" >> ~/.bashrc)
 okay
 
 pending "Creating sensible config file at ~/.config/alacritty..."
