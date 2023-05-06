@@ -3,7 +3,7 @@ Installation script for Alacritty - a GPU accelerated, higly customizable termin
 
 Adopted from [Alacritty](https://github.com/alacritty/alacritty).
 
-## Diffences from the Alacritty INSTALL instructions
+## Differences from the Alacritty INSTALL instructions
 
 * fully automates deployment process on a Debian GNU/Linux system
   * fixes a problem with the `.bash_completion` folder having the same name as a directory which is being sourced by default in `/etc`
