@@ -1,3 +1,5 @@
+Alacritty is now packaged in Debian; therefore, I have no use for this project anymore.
+
 # alacritty-installer
 Installation script for Alacritty - a GPU accelerated, higly customizable terminal emulator.
 
